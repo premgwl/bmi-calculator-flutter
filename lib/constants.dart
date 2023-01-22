@@ -11,6 +11,33 @@ const kNumberTextStyle = TextStyle(
   color: Colors.white,
   fontSize: 50,
 );
+const kLargeTextStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: Colors.white,
+  fontSize: 25,
+);
+const kTitleTextStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: Colors.white,
+  fontSize: 50,
+);
+
+const kResultTextStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: Colors.green,
+  fontSize: 25,
+);
+
+const kBmiTextStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  color: Colors.white,
+  fontSize: 100,
+);
+
+const kDescriptionTextStyle = TextStyle(
+  color: Colors.white,
+  fontSize: 22,
+);
 
 const kMaxHeight = 500.0;
 const kMinHeight = 20.0;
