@@ -205,7 +205,9 @@ class _InputPageState extends State<InputPage> {
                             RoundIconButton(
                               icon: FontAwesomeIcons.plus,
                               onPressed: () {
-                                age++;
+                                setState(() {
+                                  age++;
+                                });
                               },
                             ),
                           ],
